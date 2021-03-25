@@ -1,4 +1,3 @@
-
 var Images = {};
 
 Images.makeImage = function(source){
@@ -37,7 +36,6 @@ padding: 10px;}
 </style>
 <foreignObject width='100%' height='100%'>" + ${getElementById(menu_table)} +
         "</foreignObject></svg>
-
 `;
 var DOMURL = self.URL || self.webkitURL || self;
 var imgur = new Image();
@@ -56,6 +54,3 @@ Images.mainMenu.onload = function() {
   // Image, x, y, width, height
   ctx.drawImage(Images.mainMenu, 0, 0, 1250, 550)
 }
-
-
-
