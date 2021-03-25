@@ -47,9 +47,6 @@ imgur.onload = function() {
 };
 imgur.src = url;
 
-
-
-
 Images.mainMenu.onload = function() {
   // Image, x, y, width, height
   ctx.drawImage(Images.mainMenu, 0, 0, 1250, 550)
